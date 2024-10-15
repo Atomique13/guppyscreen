@@ -1,10 +1,5 @@
 name: guppy build
-
-on:
-  push:
-    branches: [ "develop", "main" ]
-    tags:
-      - "*"
+on: workflow_dispatch
 
 permissions:
   contents: write
